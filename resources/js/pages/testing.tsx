@@ -1,11 +1,14 @@
 import * as React from "react";
 
-import Button from "@/components/button";
+import { Button } from "@/components/ui";
+import { Link } from "@inertiajs/react";
 
 const Testing = () => {
     return (
         <div>
-            <Button />
+            <Link href={route('page.test2')}>
+                <Button>Go to another page</Button>
+            </Link>
         </div>
     );
 };
