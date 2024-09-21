@@ -1,9 +1,13 @@
-import React from 'react'
+import { Head } from "@inertiajs/react";
+import React from "react";
 
 const Testing2 = () => {
-  return (
-    <div>Testing2</div>
-  )
-}
+    return (
+        <>
+            <Head title="Testing2 Page" />
+            <h1>Testing 2</h1>
+        </>
+    );
+};
 
-export default Testing2
+export default Testing2;
